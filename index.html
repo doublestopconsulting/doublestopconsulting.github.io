@@ -21,19 +21,45 @@
            width: 600px;
            margin-left: 10px;
            word-break: keep-all;
-            }
+            } 
+        .container {
+            display: flex;
+            align-items: left;
+            justify-content: left;
+        }
+
+        .right{float:right;}
+
+                
+
     </style>
 </head>
 
 
 <body>
-    <img src="img/Logo_with_Text.svg" alt="Double Stop Consulting" width="500" height="250">
 
-    <p style="font-size:22px"><em>Addressing technical problems in a human-centric way</em></p>
+    <div class="content">
+        <img src="img/Logo_with_Text.svg" alt="Double Stop Consulting" width="500" height="250"/>
+
+        <div class="right">
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+       <div class="content">
+
+        <div class="right">
+            <img src="img/data_things_narrow.png"/>
+        </div>
+
+   <!-- <p style="font-size:20px"><em>Addressing technical problems in a human-centric way</em></p> -->
+        <p style="font-size:24px"><em>Supporting Data Informed Decision Making</em></p>
 
 
 
-    <h2>Services</h2>
+    <h2 id="services">Services Include</h2>
 
     <h3>Data Science and Engineering</h3>
     <ul>
@@ -45,15 +71,15 @@
 
     <h3>GIS and Mapping</h3>
     <ul>
-        <li>Geospatial Analysis</li>
+        <li>Geospatial Analysis & Algorithms</li>
         <li>Mapping Products</li>
-        <li>Experienced with wide range of data types</li>
+        <li>Experienced with LiDAR and remote sensing products</li>
     </ul>
 
-    <h3>Environment and Civil Engineering</h3>
+    <h3>Environmental and Civil Engineering</h3>
     <ul>
         <li>Licensed PE, Water Resources</li>
-        <li>Hydraulic and Hydrologic Modeling</li>
+        <li>Hydraulic and Hydrologic Modeling & Analysis</li>
         <li>Permit Support</li>
    </ul>
 
@@ -65,20 +91,21 @@
         <li>Software development & testing of software and data</li>
     </ul>
 
-    <h2>About</h2>
+    <h2 id="about">About</h2>
     <p>
-    Double Stop Consulting was started in 2024 by a civil engineering / water resources PE with a decade of experience in the tech industry. We seek to combine technological best practices and high engineering standards to produce well documented, easily understandable solutions for our partners.
+    Double Stop Consulting was started in 2024 by a tech industry veteran with a civil engineering / water resources background. We seek to combine technological best practices and high engineering standards to produce well documented, easily understandable solutions for our partners.
+
     </p>
-    <a href = 'capabilities_sheet_2025.pdf'>Capability Statement including NAICS codes</a>
+   <!-- <a href = 'capabilities_sheet_2025.pdf'>Capability Statement including NAICS codes</a> -->
 
      <p>Based in Seattle, WA.</p>
     
-    <h2>Contact</h2>
+    <h2 id="contact">Contact</h2>
     <p>admin@doublestopconsulting.com</p>
     <br>
 
 </body>
 <footer>
-  <p><i>Last updated in 2025</i></p>
+  <p><i>Last updated in 2026</i></p>
 </footer>
 </html>
